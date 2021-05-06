@@ -3,6 +3,7 @@
         --body: #151437;
         --text: #fff;
         --dots: #ebebeb;
+        --footer-link: #fff;
     }
     .logo::before {
         content: url(../img/svg/logo-dark.svg);
@@ -13,4 +14,8 @@
     .about::before {
         display: none;
     }
+}
+
+@media (max-width: 1199px) {
+    
 }
